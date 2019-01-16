@@ -440,13 +440,13 @@ When prompted specify the following:
 
     ![The Microsoft Azure App Service 1.1 window displays with a summary of settings.](images/Hands-onlabstep-by-step-AzureStackimages/media/image51.png)
 
-    **Note: It may take upto 60 min to complete**
+    **Note: It may take over 120 min to complete**
 
 16. The final step is to validate the App Service on Azure Stack installation. TO validate the App Service installation perform the following 2 steps:
 
-    -   In the Azure Stack admin portal, go to **Administration - App Service**.
+    -   In the Azure Stack admin portal Home page, go to **All Services - App Service**.
 
-    -   In the overview under status, check to see that the **Status** shows **All roles are ready**.
+    -   In the overview under status, check to see that the **Status** shows **All roles are ready**. It could take upto 30 min to complete
 
 ### Task 2: Deploy the Azure Stack SQL DB Resource Provider
 
