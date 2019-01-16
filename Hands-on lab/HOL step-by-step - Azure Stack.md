@@ -311,7 +311,7 @@ When prompted use the following values:
 
 #### Sub Task 6: Setup Application Identity
 
-1.  Switch back to the Azure Stack host to configure an Azure AD Service Principal for Azure Functions.
+1.  On the Azure Stack host to configure an Azure AD Service Principal for Azure Functions.
 
 2.  Launch an elevated PowerShell instance (ensure you are logged in as azurestack\\AzureStackAdmin) and run the following commands:
 
@@ -351,11 +351,11 @@ When prompted specify the following:
 
 #### Sub Task 7: Install the App Service Resource Provider
 
-**Note: Before you start the steps below, you need to download the custom script extension v1.9.0 from azure market place into your Azure Stack Market Place Management.** 
+**Note:Before you start the steps below, you need to download the custom script extension v1.9.0 from azure market place into your Azure Stack Market Place Management. Follow the steps below to download custom script extension** 
 
-Go to your **Azure Stack Marketplace Management - +Add from Azure - Type Custom Script Extension - Click Download.** It will take few minutes. Once completed move on with the steps below.**  
+**Azure Stack Marketplace Management - +Add from Azure - Type Custom Script Extension - Click Download.** It will take few minutes. Once completed move on with the steps below.**  
 
-1.  Next start the Azure Stack App Service resource provider deployment by navigating to C:\\HOL folder using File Explorer, and double click the **AppService.msi** file to start the installation.
+1.  Next start the Azure Stack App Service resource provider deployment by navigating to C:\\HOL folder using File Explorer, and double click the **AppService.exe** file to start the installation.
 
 2.  Click **Deploy App Service or upgrade to the latest version**.
 
