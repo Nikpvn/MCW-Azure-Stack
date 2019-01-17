@@ -495,7 +495,7 @@ https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-sql-resource-prov
 
     ![Command screenshot.](images/Hands-onlabstep-by-step-AzureStackimages/media/image59.png)
 
-11. At the **Privileged Endpoint** prompt, enter the **IP Address that you found using Hyper-V Manager**, and click **OK**. In the example the IP is **192.168.200.225.**
+11. At the **Privileged Endpoint** prompt, enter the **IP Address that you found using Hyper-V Manager**, and click **OK**. In the example the IP is **192.168.200.225 (verify your ip from hyper-v manager)**
 
     ![Screenshot of the Priviledged Endpoint field with the IP address displaying.](images/Hands-onlabstep-by-step-AzureStackimages/media/image60.png)
 
@@ -754,11 +754,9 @@ The first step to getting the website up and running is to configure the SQL Dat
 
     -   Max Size in MB: **250**
 
-    -   Resource group: **AzureStackContosoFinance**
+    -   Create New Resource group: **AzureStackContosoFinance**
 
     -   Location: **Local**
-
-        ![Screenshot of the Create database blade with fields set to the previously defined settings.](images/Hands-onlabstep-by-step-AzureStackimages/media/image100.png)
 
 3.  Next, click **SKU**.
 
