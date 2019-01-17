@@ -450,6 +450,18 @@ When prompted specify the following:
 
 ### Task 2: Deploy the Azure Stack SQL DB Resource Provider
 
+Note: On the Azure Stack Host machine run the following commands in elevated mode to have the latest Azure Powershell Module installed. SQL RP and Latest Azure Stack uses newer version of Azure Powershell Module
+
+-Install the AzureRM.Bootstrapper module. Select Yes when prompted to install NuGet
+    
+    Install-Module -Name AzureRm.BootStrapper
+
+-Install and import the API Version Profile required by Azure Stack into the current PowerShell session.
+
+    Use-AzureRmProfile -Profile 2018-03-01-hybrid -Force
+
+    Install-Module -Name AzureStack -RequiredVersion 1.6.0
+
 1.  From the Azure Stack Host, you will need to locate the IP address of the Azure Stack "Privileged Endpoint." Click **Start**, **Windows Administrative Tools** followed by **Hyper-V Manager**.
 
     ![The Azure Stack Host menu displays with Hyper-V Manager selected.](images/Hands-onlabstep-by-step-AzureStackimages/media/image52.png)
